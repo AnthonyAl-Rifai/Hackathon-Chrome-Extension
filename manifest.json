@@ -1,10 +1,11 @@
 {
   "name": "Text Modifier",
+  "action": {},
   "description": "Modify the text on the webpage, either by changing the font to comic sans or jumbling the letters",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage", "activeTab"]
+  "permissions": ["storage", "activeTab", "scripting"]
 }

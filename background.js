@@ -3,7 +3,8 @@
 //create a function that converts the font of the page to comic sans
 
 function toComicSans() {
-  document.body.style.font = 'font-properties font-size ComicSans MS';
+  document.body.style.fontFamily = 'Arial';
+  document.body.style.backgroundColor = 'red';
 }
 
 chrome.action.onClicked.addListener((tab) => {
