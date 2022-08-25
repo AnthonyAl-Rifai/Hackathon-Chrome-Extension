@@ -4,6 +4,12 @@
   "description": "Modify the text on the webpage, either by changing the font to comic sans or jumbling the letters",
   "version": "1.0",
   "manifest_version": 3,
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "matches": ["*://*/*"]
+    }
+  ],
   "background": {
     "service_worker": "background.js"
   },
