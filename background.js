@@ -3,7 +3,11 @@
 //create a function that converts the font of the page to comic sans
 
 function toComicSans() {
-  document.body.style.fontFamily = 'Arial';
+  const divs = document.getElementsByTagName('div');
+  for (const div of divs) {
+    document.body.style.fontFamily = 'Comic Sans MS';
+    divs.style.fontFamily = 'Comic Sans MS';
+  }
   document.body.style.backgroundColor = 'red';
 }
 
