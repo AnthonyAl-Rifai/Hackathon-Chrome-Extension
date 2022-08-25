@@ -1,6 +1,7 @@
 # Hackathon-Chrome-Extension
+
 Chrome Extension by David Cheng and Anthony Al-Rifai
 
-the first iteration will be a comic sans converter
+The first iteration will convert the font of all the words on the webpage to Comic Sans
 
-the second iteration will be internally jumbled letters
+The second iteration will convert the letters of all the words on the webpage to be jumbled internally, keeping the first and last letter in place
